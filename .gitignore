@@ -24,7 +24,12 @@ node_modules/
 *.sqlite
 
 #ignore specific files
+.DS_Store
 .bashrc
 .cloud-locale-test.skip
 .digitalocean_password
 docker-compose.yml
+
+# large/disallowed file types
+.mp4
+.pdf
