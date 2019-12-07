@@ -434,7 +434,8 @@ function course_topic_init() {
 			'has_archive'        => true,
 			'hierarchical'       => false,
 			'menu_position'      => 2,
-			'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+			'supports'           => array( 'title', 'gutenberg', 'author', 'thumbnail', 'excerpt', 'comments' ),
+			'show_in_rest' => true,
 	);
 
 	register_post_type( 'course topic', $args );
