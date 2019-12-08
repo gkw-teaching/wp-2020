@@ -429,7 +429,7 @@ function course_topic_init() {
 			'show_ui'            => true,
 			'show_in_menu'       => true,
 			'query_var'          => true,
-			'rewrite'            => array( 'slug' => 'course topic' ),
+			'rewrite'            => array( 'slug' => 'course-topic' ),
 			'capability_type'    => 'post',
 			'has_archive'        => true,
 			'hierarchical'       => false,
